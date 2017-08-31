@@ -158,6 +158,7 @@ img {
   color: rgb(85, 85, 85);
   padding-bottom: 20px;
   padding-top: 10px;
+  position: fixed; /* so it's accessible even if user scrolls */ 
 }
 
 .highlight {
@@ -174,7 +175,7 @@ img {
 }
 
 .article {
-  padding-left: 50px;
+  padding-left: 150px; /* 100 px for drawer, 50px for extra space*/
   padding-bottom: 200px;
 }
 
